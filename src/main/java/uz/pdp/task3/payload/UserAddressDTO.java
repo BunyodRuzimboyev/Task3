@@ -1,0 +1,11 @@
+package uz.pdp.task3.payload;
+
+import lombok.Data;
+
+@Data
+public class UserAddressDTO {
+    private String userName;
+    private Integer districtId;
+    private String street;
+    private String homeNumber;
+}
